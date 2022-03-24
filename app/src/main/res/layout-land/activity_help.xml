@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/btn_help"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Mis pequeños saltamontes es una aplicación que permitirá registrar los datos básicos del estudiante y 5 materias con sus respectivas notas, lo cual, genera un informe del estudiante donde se va a visualizar el nombre completo, las materias ingresadas, el promedio y el resultado de que si gano, perdió o puede recuperar. Además, tiene un apartado de estadísticas donde podrá visualizar los estudiantes registrados en la app, los que ganaron, perdieron o pueden recuperar."
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg_green"
+        android:text="@string/btn_close"
+        android:id="@+id/btnClose3"/>
+</LinearLayout>

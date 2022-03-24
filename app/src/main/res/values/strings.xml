@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mis Pequeños Saltamontes</string>
+    <string name="btn_help">Ayuda</string>
+    <string name="btn_registration">Registrar estudiante</string>
+    <string name="btn_statistics">Estadistica</string>
+    <string name="btn_following">Siguiente</string>
+    <string name="btn_close">Salir</string>
+    <string name="title_basic_data">Datos basicos</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_document">Documento</string>
+    <string name="txt_age">Edad</string>
+    <string name="txt_phone">Telefono</string>
+    <string name="txt_address">Dirección</string>
+    <string name="subject">Materia</string>
+    <string name="title_subject2">Materias</string>
+    <string name="txt_grade">Nota</string>
+    <string name="txt_information">Información</string>
+    <string name="txt_average">Promedio</string>
+    <string name="txt_status">Estado</string>
+    <string name="title_statistics">Estadisticas de los Estudiantes</string>
+    <string name="txt_number_logged">Registrados</string>
+    <string name="txt_number_winners">Ganaron</string>
+    <string name="txt_number_lost">Perdieron</string>
+    <string name="txt_number_recovery">Pueden Recuperar</string>
+    <string name="title_information_student">Información del Estudiante</string>
+    <string name="text_help"> Mis pequeños saltamontes es una aplicación que permitirá registrar los datos básicos del estudiante y 5 materias con sus respectivas notas, lo cual, genera un informe del estudiante donde se va a visualizar el nombre completo, las materias ingresadas, el promedio y el resultado de que si gano, perdió o puede recuperar. Además, tiene un apartado de estadísticas donde podrá visualizar los estudiantes registrados en la app, los que ganaron, perdieron o pueden recuperar.</string>
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterStudent"
+    android:orientation="vertical"
+    android:layout_margin="50dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/title_basic_data"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/txt_document"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/txt_document"
+                    android:singleLine="true"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/txt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/txt_name"
+                    android:singleLine="true"
+                    android:inputType="textPersonName"/>
+
+                <EditText
+                    android:id="@+id/txt_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/txt_age"
+                    android:singleLine="true"
+                    android:inputType="number"/>
+
+                    <EditText
+                        android:id="@+id/txt_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:hint="@string/txt_phone"
+                        android:singleLine="true"
+                        android:inputType="phone"/>
+
+                    <EditText
+                    android:id="@+id/txt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:hint="@string/txt_address"
+                        android:singleLine="true"
+                        android:inputType="textPostalAddress"/>
+
+
+                </LinearLayout>
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/title_subject2"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp">
+
+                        <EditText
+                            android:id="@+id/subject1"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:hint="@string/txt_name"
+                            android:singleLine="true"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/grade1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/txt_grade"
+                            android:singleLine="true"
+                            android:inputType="numberDecimal"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp">
+
+                        <EditText
+                            android:id="@+id/subject2"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:hint="@string/txt_name"
+                            android:singleLine="true"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/grade2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/txt_grade"
+                            android:singleLine="true"
+                            android:inputType="numberDecimal"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp">
+
+                        <EditText
+                            android:id="@+id/subjet3"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:hint="@string/txt_name"
+                            android:singleLine="true"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/grade3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/txt_grade"
+                            android:singleLine="true"
+                            android:inputType="numberDecimal"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp">
+
+                        <EditText
+                            android:id="@+id/subjet4"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:hint="@string/txt_name"
+                            android:singleLine="true"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/grade4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/txt_grade"
+                            android:singleLine="true"
+                            android:inputType="numberDecimal"/>
+                    </LinearLayout>
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                        <EditText
+                            android:id="@+id/subjet5"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:hint="@string/txt_name"
+                            android:singleLine="true"
+                            android:inputType="text"/>
+
+                        <EditText
+                            android:id="@+id/grade5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/txt_grade"
+                            android:singleLine="true"
+                            android:inputType="numberDecimal"/>
+                </LinearLayout>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/bg_green"
+                        android:text="@string/btn_following"
+                        android:id="@+id/btnAverage"/>
+
+                </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

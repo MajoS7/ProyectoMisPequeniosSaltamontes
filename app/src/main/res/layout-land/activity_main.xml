@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="238dp"
+        android:layout_height="382dp"
+        app:srcCompat="@drawable/grillo"
+        android:layout_marginLeft="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="110dp">
+
+        <Button
+            android:id="@+id/btnAverageStudent"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bg_green"
+            android:text="@string/btn_registration" />
+
+        <Button
+            android:id="@+id/btnStatistics"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bg_green"
+            android:text="@string/btn_statistics" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bg_green"
+            android:text="@string/btn_help" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
